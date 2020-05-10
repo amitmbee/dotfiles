@@ -1,3 +1,5 @@
+# Programs
+
 - ThunderBird
 - Flameshot
 - Gnome Tweaks
@@ -9,3 +11,10 @@
 - VSCode
 - Synaptic
 - Calibre
+
+
+# Packages
+
+- git
+- netcat
+- net-tools
