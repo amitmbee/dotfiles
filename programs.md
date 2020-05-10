@@ -1,0 +1,11 @@
+- ThunderBird
+- Flameshot
+- Gnome Tweaks
+- Stacer
+- VLC
+- Chrome
+- Brave
+- Atom
+- VSCode
+- Synaptic
+- Calibre
