@@ -1,0 +1,43 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.lineHeight": 22,
+    "editor.letterSpacing": 0.2,
+    "files.trimTrailingWhitespace": true,
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.editor.enablePreview": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.startupEditor": "newUntitledFile",
+    "git.suggestSmartCommit": false,
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "explorer.openEditors.visible": 0,
+    "editor.fontLigatures": false,
+    "breadcrumbs.enabled": true,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }

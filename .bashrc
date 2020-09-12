@@ -208,7 +208,7 @@ fi
 # ALIASES
 #---------------------------------
 
-alias open="xdg-open"
+alias o="xdg-open"
 alias da='date "+%d-%m-%Y %A %T %Z"' ## 10-05-2020 Sunday 06:37:41 IST
 
 # Alias's to modified commands
@@ -224,7 +224,6 @@ alias apt-get='sudo apt-get'
 
 # Change directory aliases
 alias home='cd ~'
-alias cd..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -269,6 +268,16 @@ alias cap="adb shell screencap -p /sdcard/screen.png && \
 # Saves the screenshot with name screen.png
 # cap
 
+## IP Address
+alias ip="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+## Editor
+alias "c."="code .";
+
+## Local
+## Local server using python httpServer
+alias server='python -m SimpleHTTPServer' # To start a local server
+
 # fnm
 export PATH=/home/amit/.fnm:$PATH
 eval "`fnm env --multi`"
@@ -277,8 +286,8 @@ export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$PATH:$ANDROID_HOME/emulator# Set alias to shorten command to run emulator
-alias run-emu="$ANDROID_HOME/tools/emulator @pixel2"
+export PATH=$PATH:$ANDROID_HOME/emulator
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 export PATH=$PATH:$JAVA_HOME/bin
+export ANDROID_SDK=/home/amit/Android/Sdk
